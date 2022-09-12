@@ -1,0 +1,90 @@
+.coursecard{
+    width: 333px;
+    position: fixed;
+    right: 225px;
+    box-shadow: 0 0 1px 2px rgba(0,0,0,0.1);
+    z-index: 5;
+}
+
+.imagecard{
+    color: white;
+    text-align: center;
+    padding-top: 17% !important;
+    background:linear-gradient(rgba(255, 255, 255,0.05),rgba(0, 0, 0,0.8));
+}
+.coursecard div{
+    border-radius: 0;
+}
+
+.preview{
+    margin-top: 10%;
+    font-weight: 800;
+}
+
+.tocart,.tobuy{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.tocart a,.tobuy a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tocart{
+    background-color:blueviolet;
+    border: none;
+}
+.tobuy{
+    background-color:white;
+    border-color: rgba(0,0,0,0.4);
+}
+.tocart a{
+    color: white;
+}
+
+.tobuy a{
+    color: black;
+}
+
+.boldcard{
+    font-weight: bold;
+}
+.lightcard{
+    font-weight: lighter;
+}
+.moneyback{
+    text-align: center;
+    font-size: smaller;
+    color: gray;
+}
+.icons{
+    font-size: smaller;
+    line-height: 10px;
+    margin-left: 0px !important;
+}
+.icons p{
+    margin-left: 10px !important;
+}
+.icons i{
+    width: 10%;
+}
+
+.links a{
+    margin-left: 10px;
+    display: inline-block;
+    color: rgba(0,0,0,0.8);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1300px) {
+    .coursecard{
+        display:none !important;
+    }
+}

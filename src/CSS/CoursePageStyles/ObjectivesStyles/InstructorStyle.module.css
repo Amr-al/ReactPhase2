@@ -1,0 +1,38 @@
+.Instructor{
+    margin-top:20px;
+}
+
+.InstructorName{
+    font-size:larger;
+    font-weight:bold;
+    color:#af5ac4;
+}
+
+.InstructorJob{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.InstructorImage{
+    float: left;
+    border-radius:50px;
+}
+
+.InstructorRating{
+    margin-left: 120px;
+}
+
+.Instructor p{
+    margin-left: 0px;
+}
+
+
+@media screen and (max-width:575px) {
+    .InstructorImage{
+       margin: 0;
+    }
+    .InstructorRating{
+        text-align: center;
+        padding: 0;
+    }
+}

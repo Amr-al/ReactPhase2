@@ -1,0 +1,99 @@
+main{
+  max-width: 2000px;
+  margin: auto;
+}
+.main_class {
+  width: 90%;
+  margin: auto;
+  margin-top: 4%;
+}
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav_item > a {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  padding-right: 15px;
+}
+.nav_item > a:focus,
+.nav_item > a:active,
+.nav_item > a:hover {
+  font-weight: bold;
+  color: black;
+  border: 0px;
+}
+.CourseContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.CourseContainer button {
+  margin-left: 35px;
+  display: inline-flex;
+  white-space: nowrap;
+  padding: 1rem;
+  color: #1c1d1f;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #1c1d1f;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.Description {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.course_btn {
+  margin-left: 60px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+  width: fit-content;
+  font-weight: bold;
+}
+.Description p{
+  width: 80%;
+}
+
+.HeadDescription {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.CourseDescription {
+  font-size: 22px;
+  margin-left: 35px;
+  width: 75%;
+}
+.Description p{
+  margin-left: 1%;
+  font-size: 17px;
+  font-weight: 400;
+}
+.buttonValue {
+  padding: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+  width: fit-content;
+  font-weight: bold;
+}
+
+
+

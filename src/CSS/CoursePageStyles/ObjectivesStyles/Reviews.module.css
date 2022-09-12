@@ -1,0 +1,62 @@
+.person {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  float: left;
+}
+
+.commentcontent {
+  padding-left: 80px;
+}
+.reviewname {
+  font-weight: 700;
+}
+.reviewrate {
+  margin-left: 15px;
+}
+.like {
+  cursor: pointer;
+}
+
+.like i:first-of-type {
+  margin-left: 80px;
+}
+.like i:last-of-type {
+  margin-left: 20px;
+}
+
+.helpful {
+  margin-left: 80px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 991px) {
+  .person {
+    display: none;
+  }
+  .commentcontent {
+    padding-left: 0;
+  }
+
+  .helpful,
+  .like i:first-of-type {
+    margin-left: 0;
+  }
+  .like i:last-of-type {
+    margin-right: 20px;
+  }
+  .comment {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .reviewname {
+    margin-left: -30px;
+  }
+  .reviewrate {
+    margin-left: -15px;
+  }
+}

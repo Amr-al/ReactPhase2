@@ -1,0 +1,54 @@
+.header{
+    background-color: #1d1d1f;
+    padding: 2% 40% 2% 13%;
+    color: white;
+    line-height: 40px;
+    margin-top: 70px;
+}
+.links{
+    position: fixed;
+}
+.header h2{
+    font-family:sans-serif !important;
+    font-weight: 600;
+}
+.header h5{
+    font-family:sans-serif !important;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rating{
+    color:goldenrod;
+    font-size: 12px;
+}
+
+.header a,.header a:hover{
+    color:#af5ac4 !important;
+}
+
+.header > a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.small{
+    font-size: 15px;
+}
+
+.header strong{
+    font-size: 15px;
+}
+
+.lasthead{
+    word-spacing: 10px;
+}
+
+.lasthead span{
+    word-spacing: normal;
+}
+@media screen and (max-width:991px) {
+    .header{
+        padding: 20px;
+    }
+}

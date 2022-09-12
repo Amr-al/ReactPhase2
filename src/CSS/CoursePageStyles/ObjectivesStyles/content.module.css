@@ -1,0 +1,33 @@
+.lecturetitle{
+    float: left;
+    font-weight: bold;
+}
+
+.time{
+    float: right;
+    font-weight: lighter;
+}
+
+.accheader{
+    width: 95%;
+    float: right;
+    text-align: right;
+}
+
+.LectureCard{
+    border:none;
+    font-weight:lighter;
+}
+
+.MoreContentBtn{
+    width:100%;
+    margin-top:20px;
+    background-color:white;
+    border-color:rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width:1200px){
+    .time,.accheader{
+        display: none;
+    }
+}

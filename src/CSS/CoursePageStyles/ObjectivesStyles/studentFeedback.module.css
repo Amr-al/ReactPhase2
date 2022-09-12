@@ -1,0 +1,41 @@
+.progress {
+  height: 9px !important;
+  margin-bottom: 20px;
+  border-radius: 0 !important;
+}
+
+.progress:first-of-type {
+  margin-top: 5px;
+}
+.rating {
+  color: #cd7f32;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 !important;
+}
+.rating h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: -10px;
+}
+.rating p {
+  font-size: 15px !important;
+}
+.stars a {
+  color: #af5ac4;
+}
+
+@media screen and (max-width: 991px) {
+  .rating {
+    width: 100% !important;
+    text-align: left !important;
+    margin-left: 10px !important;
+  }
+  .stars {
+    width: 200px !important;
+  }
+  .rating p {
+    margin-left: 0%;
+  }
+}
