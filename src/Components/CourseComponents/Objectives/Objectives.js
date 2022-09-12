@@ -25,10 +25,10 @@ function Objectives({ course }) {
         </p>
       </div>
       <div className={Styles.nav}>
-        <a href="" id = "#whatlearn">Overview</a>
-        <a href="" id ="#content">Curriculum</a>
-        <a href="" id ="#instructors">Instructor</a>
-        <a href="" id ="#reviews">Reviews</a>
+        <a href="#" id = "#whatlearn">Overview</a>
+        <a href="#" id ="#content">Curriculum</a>
+        <a href="#" id ="#instructors">Instructor</a>
+        <a href="#" id ="#reviews">Reviews</a>
       </div>
       <div className={Styles.content}>
         <div className={Styles.whatLearn} id="whatlearn">
